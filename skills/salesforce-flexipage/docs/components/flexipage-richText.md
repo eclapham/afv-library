@@ -1,4 +1,4 @@
-# Rich Text Component
+# flexipage:richText (Rich Text Component)
 
 **Component name:** `flexipage:richText`
 
@@ -17,10 +17,12 @@
          <name>decorate</name>
          <value>true</value>
       </componentInstanceProperties>
+      <componentInstanceProperties>
+         <name>richTextValue</name>
+         <value>{encoded text goes here}</value>
+      </componentInstanceProperties>
       <componentName>flexipage:richText</componentName>
-      <identifier>flexipage_richText</identifier>
+      <identifier>flexipage_richText_{uuid}</identifier>
    </componentInstance>
 </itemInstances>
 ```
-
-**Identifier Pattern:** `flexipage_richText` or `flexipage_richText_{sequence}`

@@ -188,7 +188,7 @@ npm install -g @salesforce/cli@latest
 ### Step 2: Deploy Base Page
 
 ```bash
-sf project deploy start --source-dir force-app/main/default/flexipages
+sf project deploy start --dry-run --source-dir force-app/main/default/flexipages
 ```
 
 **Deploy early, deploy often.** Start with the bootstrapped page, validate it works, then enhance.
